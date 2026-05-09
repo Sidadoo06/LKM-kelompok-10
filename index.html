@@ -437,16 +437,16 @@
                 <script>
                     const members = [
                         { name: "Kevin Pratama", npm: "257006111003", role: "Ketua Kelompok", seed: "Leader" },
-                        { name: "sheyla", npm: "2110631170042", role: "Anggota", seed: "Budi" },
-                        { name: "Virna", npm: "2110631170088", role: "Anggota", seed: "Citra" },
-                        { name: "Naila", npm: "2110631170112", role: "Anggota", seed: "Dwi" },
-                        { name: "Rizky Haviz", npm: "2110631170155", role: "Anggota", seed: "Eka" },
-                        { name: "Satria Trisnanda", npm: "257006111176", role: "Anggota", seed: "dadogunung.jpeg" },
-                        { name: "Ganti namana", npm: "npm ganti", role: "Anggota", seed: "Gita" },
-                        { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Hadi" },
-                        { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Indra" },
-                        { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Joko" },
-                        { name: "ganti namana", npm: "ganti npm", role: "Anggota", seed: "Kania" }
+                        { name: "sheyla", npm: "2110631170042", role: "Anggota", seed: "Budi", linkedin: "" },
+                        { name: "Virna", npm: "2110631170088", role: "Anggota", seed: "Citra", linkedin: "" },
+                        { name: "Naila", npm: "2110631170112", role: "Anggota", seed: "Dwi", linkedin: "" },
+                        { name: "Rizky Haviz", npm: "2110631170155", role: "Anggota", seed: "Eka", linkedin: "" },
+                        { name: "Satria Trisnanda", npm: "257006111176", role: "Anggota", seed: "dadogunung.jpeg", linkedin: "satria-trisnanda-wijaya-191792392" },
+                        { name: "Ganti namana", npm: "npm ganti", role: "Anggota", seed: "Gita", linkedin: "" },
+                        { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Hadi", linkedin: "" },
+                        { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Indra", linkedin: "" },
+                        { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Joko", linkedin: "" },
+                        { name: "ganti namana", npm: "ganti npm", role: "Anggota", seed: "Kania", linkedin: "" }
                     ];
 
                     document.write(members.map(m => `
@@ -457,7 +457,7 @@
                                 <h3 class="text-lg font-bold uppercase leading-tight mb-1">${m.name}</h3>
                                 <p class="text-[10px] opacity-50 font-medium">${m.npm}</p>
                                 <div class="member-social">
-                                    <a href="#" class="inline-flex items-center gap-2 text-[10px] font-bold text-accent hover:text-white transition-colors">
+                                    <a href="https://www.linkedin.com/in/${m.linkedin}" class="inline-flex items-center gap-2 text-[10px] font-bold text-accent hover:text-white transition-colors">
                                         <i data-lucide="linkedin" class="w-3 h-3"></i> LinkedIn Profile
                                     </a>
                                 </div>
