@@ -441,7 +441,7 @@
                         { name: "Virna", npm: "2110631170088", role: "Anggota", seed: "Citra" },
                         { name: "Naila", npm: "2110631170112", role: "Anggota", seed: "Dwi" },
                         { name: "Rizky Haviz", npm: "2110631170155", role: "Anggota", seed: "Eka" },
-                        { name: "Satria Trisnanda", npm: "257006111176", role: "Anggota", seed: "Fajar" },
+                        { name: "Satria Trisnanda", npm: "257006111176", role: "Anggota", seed: "dadogunung.jpeg" },
                         { name: "Ganti namana", npm: "npm ganti", role: "Anggota", seed: "Gita" },
                         { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Hadi" },
                         { name: "Ganti namana", npm: "ganti npm", role: "Anggota", seed: "Indra" },
@@ -451,7 +451,7 @@
 
                     document.write(members.map(m => `
                         <div class="member-card rounded-sm group">
-                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=${m.seed}" alt="${m.name}">
+                            <img src="./image/${m.seed}" alt="${m.name}">
                             <div class="member-info">
                                 <span class="text-[9px] font-bold tracking-[0.4em] text-accent uppercase mb-1 block">${m.role}</span>
                                 <h3 class="text-lg font-bold uppercase leading-tight mb-1">${m.name}</h3>
