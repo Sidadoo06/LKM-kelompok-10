@@ -13,12 +13,12 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         :root {
-            --bg: #030712;
+            --bg: #050a18;
             --white: #ffffff;
-            --accent: #3b82f6;
-            --primary: #2563eb;
-            --glass: rgba(255, 255, 255, 0.03);
-            --border: rgba(255, 255, 255, 0.08);
+            --accent: #60a5fa;
+            --primary: #3b82f6;
+            --glass: rgba(255, 255, 255, 0.05);
+            --border: rgba(255, 255, 255, 0.12);
         }
 
         /* Custom cursor hanya untuk perangkat dengan mouse (non-touch) */
@@ -413,7 +413,7 @@
                 <div class="bg-white text-blue-900 font-black px-3 py-1 rounded-sm text-xl tracking-tighter">IF</div>
                 <div class="flex flex-col">
                     <span
-                        class="text-[9px] md:text-[10px] font-bold tracking-[0.3em] uppercase opacity-60 leading-none">Angkatan
+                        class="text-[9px] md:text-[10px] font-bold tracking-[0.3em] uppercase opacity-100 leading-none">Angkatan
                         25</span>
                     <span
                         class="text-[8px] md:text-[10px] font-bold tracking-[0.2em] uppercase leading-tight mt-1">Kelompok
@@ -464,9 +464,9 @@
         <!-- Section: Home (Responsif) -->
         <section id="home" class="page-section active">
             <div class="relative mb-24 md:mb-32">
-                <p class="text-accent text-[10px] md:text-xs font-bold tracking-[0.6em] uppercase mb-8 block ml-1">
+                <p class="text-white text-[10px] md:text-xs font-bold tracking-[0.6em] uppercase mb-8 block ml-1">
                     Informatika 25 / LKM</p>
-                <h1 class="text-huge">
+                <h1 class="text-huge text-white">
                     LATIHAN<br>
                     KEPEMIMPINAN<br>
                     <span class="text-outline serif-italic">Mahasiswa</span>.
@@ -474,7 +474,7 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-12 mt-16 md:mt-20 gap-12 items-end">
                     <div class="lg:col-span-4">
-                        <p class="text-white/40 text-base md:text-xl font-light leading-relaxed mb-8 md:mb-12">
+                        <p class="text-white text-base md:text-xl font-light leading-relaxed mb-8 md:mb-12">
                             Membangun narasi baru dalam kepemimpinan teknologi. Eksklusivitas dalam pemikiran,
                             inklusivitas dalam kolaborasi.
                         </p>
@@ -508,21 +508,21 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-24 py-16 md:py-24 border-t border-white/5">
                 <div class="group">
-                    <span class="text-accent text-xs font-bold tracking-widest block mb-6">01 / KONSEP</span>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-4 serif-italic">Visioner</h3>
-                    <p class="text-white/30 font-light text-sm md:text-base">Melihat apa yang belum terlihat, merancang
+                    <span class="text-white text-xs font-bold tracking-widest block mb-6">01 / KONSEP</span>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 serif-italic text-white">Visioner</h3>
+                    <p class="text-white font-light text-sm md:text-base">Melihat apa yang belum terlihat, merancang
                         masa depan dengan presisi tinggi.</p>
                 </div>
                 <div class="group">
-                    <span class="text-accent text-xs font-bold tracking-widest block mb-6">02 / NILAI</span>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-4 serif-italic">Resiliensi</h3>
-                    <p class="text-white/30 font-light text-sm md:text-base">Ketangguhan dalam menghadapi dinamika
+                    <span class="text-white text-xs font-bold tracking-widest block mb-6">02 / NILAI</span>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 serif-italic text-white">Resiliensi</h3>
+                    <p class="text-white font-light text-sm md:text-base">Ketangguhan dalam menghadapi dinamika
                         perubahan dunia informatika.</p>
                 </div>
                 <div class="group">
-                    <span class="text-accent text-xs font-bold tracking-widest block mb-6">03 / AKSI</span>
-                    <h3 class="text-2xl md:text-3xl font-bold mb-4 serif-italic">Inovasi</h3>
-                    <p class="text-white/30 font-light text-sm md:text-base">Melampaui standar untuk menciptakan solusi
+                    <span class="text-white text-xs font-bold tracking-widest block mb-6">03 / AKSI</span>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 serif-italic text-white">Inovasi</h3>
+                    <p class="text-white font-light text-sm md:text-base">Melampaui standar untuk menciptakan solusi
                         yang berdampak luas.</p>
                 </div>
             </div>
@@ -532,10 +532,10 @@
         <section id="anggota" class="page-section">
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
                 <div>
-                    <h2 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter uppercase leading-none">
+                    <h2 class="text-5xl md:text-7xl lg:text-8xl text-white tracking-tighter uppercase leading-none">
                         ANGGOTA<br><span class="text-outline serif-italic lowercase">kelompok</span></h2>
                 </div>
-                <p class="text-white/40 max-w-xs md:text-right italic font-light text-sm">Wajah-wajah di balik inovasi
+                <p class="text-white max-w-xs md:text-right italic font-light text-sm">Wajah-wajah di balik inovasi
                     Kelompok 10 Informatika 25.</p>
             </div>
 
@@ -558,11 +558,11 @@
                         <div class="member-card rounded-sm group">
                             <img src="./image/${m.seed}" alt="${m.name}">
                             <div class="member-info">
-                                <span class="text-[9px] font-bold tracking-[0.4em] text-accent uppercase mb-1 block">${m.role}</span>
+                                <span class="text-[9px] font-bold tracking-[0.4em] text-white uppercase mb-1 block">${m.role}</span>
                                 <h3 class="text-lg font-bold uppercase leading-tight mb-1 text-white">${m.name}</h3>
-                                <p class="text-[10px] opacity-50 font-medium">${m.npm}</p>
+                                <p class="text-[10px] text-white font-medium">${m.npm}</p>
                                 <div class="member-social">
-                                    <a href="https://www.linkedin.com/in/${m.linkedin}" class="inline-flex items-center gap-2 text-[10px] font-bold text-accent hover:text-white transition-colors">
+                                    <a href="https://www.linkedin.com/in/${m.linkedin}" class="inline-flex items-center gap-2 text-[10px] font-bold text-white hover:text-white transition-colors">
                                         <i data-lucide="linkedin" class="w-3 h-3"></i> LinkedIn Profile
                                     </a>
                                 </div>
@@ -577,8 +577,8 @@
         <section id="mentor" class="page-section">
             <div class="text-center mb-16 md:mb-32">
                 <span
-                    class="text-accent text-[10px] md:text-xs font-bold tracking-[1em] uppercase mb-6 block">Guidance</span>
-                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter uppercase serif-italic">Pendamping</h2>
+                    class="text-white text-[10px] md:text-xs font-bold tracking-[1em] uppercase mb-6 block">Guidance</span>
+                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter uppercase serif-italic text-white">Pendamping</h2>
             </div>
 
             <div class="grid md:grid-cols-2 gap-px bg-white/5 border border-white/5">
@@ -593,8 +593,8 @@
                                 class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition">
                         </div>
                     </div>
-                    <h3 class="text-2xl md:text-3xl font-bold uppercase mb-2">Teh Sandria</h3>
-                    <p class="text-accent text-[10px] tracking-widest uppercase opacity-60 text-center">Pendamping
+                    <h3 class="text-2xl md:text-3xl font-bold uppercase mb-2 text-white">Teh Sandria</h3>
+                    <p class="text-white text-[10px] tracking-widest uppercase text-center">Pendamping
                         Kelompok 10 Angkatan 25</p>
                 </div>
 
@@ -609,8 +609,8 @@
                                 class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition">
                         </div>
                     </div>
-                    <h3 class="text-2xl md:text-3xl font-bold uppercase mb-2">Teh Yura</h3>
-                    <p class="text-accent text-[10px] tracking-widest uppercase opacity-60 text-center">Pendamping
+                    <h3 class="text-2xl md:text-3xl font-bold uppercase mb-2 text-white">Teh Yura</h3>
+                    <p class="text-white text-[10px] tracking-widest uppercase text-center">Pendamping
                         Kelompok 10 Angkatan 25</p>
                 </div>
             </div>
@@ -624,15 +624,15 @@
                         class="text-6xl md:text-8xl lg:text-9xl font-black text-outline uppercase opacity-20 leading-none">
                         MATERI</h2>
                     <h2
-                        class="text-3xl md:text-5xl lg:text-6xl font-bold uppercase -mt-5 md:-mt-8 serif-italic ml-3 md:ml-12">
+                        class="text-3xl md:text-5xl lg:text-6xl font-bold uppercase -mt-5 md:-mt-8 serif-italic ml-3 md:ml-12 text-white">
                         Yang Disampaikan</h2>
                 </div>
                 <div class="slider-controls">
                     <button onclick="moveSlider('prev')" class="slider-btn"><i data-lucide="arrow-left"
-                            class="w-4 h-4 md:w-5 md:h-5"></i></button>
+                            class="w-4 h-4 md:w-5 md:h-5 text-white"></i></button>
                     <div class="slider-dots" id="sliderDots"></div>
                     <button onclick="moveSlider('next')" class="slider-btn"><i data-lucide="arrow-right"
-                            class="w-4 h-4 md:w-5 md:h-5"></i></button>
+                            class="w-4 h-4 md:w-5 md:h-5 text-white"></i></button>
                 </div>
             </div>
 
@@ -648,11 +648,11 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">01 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">01 /
                                     KOMUNITAS</span>
-                                <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Analisis &<br>Pengembangan
+                                <h2 class="text-5xl font-bold uppercase mb-6 leading-tight text-white">Analisis &<br>Pengembangan
                                     Masyarakat</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed">
+                                <p class="text-white text-lg font-light leading-relaxed">
                                 </p>
                             </div>
 
@@ -660,9 +660,9 @@
                                 <div class="space-y-10">
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
+                                        <p class="text-white text-xl font-light leading-relaxed">
                                             Analisis dan Pengembangan Masyarakat adalah pendekatan sistematis untuk
                                             memahami kebutuhan komunitas lokal dan merancang intervensi yang
                                             berkelanjutan. Pendekatan ini menekankan partisipasi aktif warga dalam
@@ -673,9 +673,9 @@
 
                                     <!-- Tujuan & Komponen -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">Tujuan
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">Tujuan
                                             & Komponen</h4>
-                                        <p class="text-white/40 text-lg font-light leading-relaxed mb-10">
+                                        <p class="text-white text-lg font-light leading-relaxed mb-10">
                                             Memberikan pemahaman mendalam tentang metodologi pengembangan masyarakat
                                             yang efektif dan berkelanjutan.
                                         </p>
@@ -684,28 +684,28 @@
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Analisis
                                                     Kebutuhan</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Identifikasi aspirasi
+                                                <p class="text-xs text-white leading-relaxed">Identifikasi aspirasi
                                                     dan masalah utama warga melalui survei partisipatif.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Sumber
                                                     Daya</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Pemetaan kemampuan,
+                                                <p class="text-xs text-white leading-relaxed">Pemetaan kemampuan,
                                                     modal sosial, dan aset lokal yang tersedia.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Pemetaan
                                                     Jaringan</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Analisis relasi antar
+                                                <p class="text-xs text-white leading-relaxed">Analisis relasi antar
                                                     kelompok dan potensi dukungan eksternal.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Analisis
                                                     Risiko</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Identifikasi hambatan,
+                                                <p class="text-xs text-white leading-relaxed">Identifikasi hambatan,
                                                     tantangan, dan kendala implementasi.</p>
                                             </div>
                                         </div>
@@ -714,48 +714,48 @@
                                     <!-- Metode & Indikator -->
                                     <div class="grid md:grid-cols-2 gap-10">
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                                 Metode Analisis</h4>
                                             <ul class="space-y-6">
                                                 <li class="flex items-center gap-4 group/item">
                                                     <div
-                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/item:bg-accent group-hover/item:text-bg transition-all">
+                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-white group-hover/item:bg-accent group-hover/item:text-bg transition-all">
                                                         01</div>
-                                                    <span class="text-sm font-medium text-white/60">Survei
+                                                    <span class="text-sm font-medium text-white">Survei
                                                         Partisipatif</span>
                                                 </li>
                                                 <li class="flex items-center gap-4 group/item">
                                                     <div
-                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/item:bg-accent group-hover/item:text-bg transition-all">
+                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-white group-hover/item:bg-accent group-hover/item:text-bg transition-all">
                                                         02</div>
-                                                    <span class="text-sm font-medium text-white/60">Analisis SWOT</span>
+                                                    <span class="text-sm font-medium text-white">Analisis SWOT</span>
                                                 </li>
                                                 <li class="flex items-center gap-4 group/item">
                                                     <div
-                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/item:bg-accent group-hover/item:text-bg transition-all">
+                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-white group-hover/item:bg-accent group-hover/item:text-bg transition-all">
                                                         03</div>
-                                                    <span class="text-sm font-medium text-white/60">Diskusi
+                                                    <span class="text-sm font-medium text-white">Diskusi
                                                         Kelompok</span>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                                 Indikator Sukses</h4>
                                             <ul class="space-y-5">
                                                 <li class="flex gap-4 items-start">
-                                                    <i data-lucide="check" class="w-5 h-5 text-accent mt-1"></i>
-                                                    <span class="text-sm text-white/40">Partisipasi komunitas meningkat
+                                                    <i data-lucide="check" class="w-5 h-5 text-white mt-1"></i>
+                                                    <span class="text-sm text-white">Partisipasi komunitas meningkat
                                                         signifikan</span>
                                                 </li>
                                                 <li class="flex gap-4 items-start">
-                                                    <i data-lucide="check" class="w-5 h-5 text-accent mt-1"></i>
-                                                    <span class="text-sm text-white/40">Solusi relevan konteks
+                                                    <i data-lucide="check" class="w-5 h-5 text-white mt-1"></i>
+                                                    <span class="text-sm text-white">Solusi relevan konteks
                                                         lokal</span>
                                                 </li>
                                                 <li class="flex gap-4 items-start">
-                                                    <i data-lucide="check" class="w-5 h-5 text-accent mt-1"></i>
-                                                    <span class="text-sm text-white/40">Dampak sosial terukur &
+                                                    <i data-lucide="check" class="w-5 h-5 text-white mt-1"></i>
+                                                    <span class="text-sm text-white">Dampak sosial terukur &
                                                         berkelanjutan</span>
                                                 </li>
                                             </ul>
@@ -764,7 +764,7 @@
 
                                     <!-- Tahapan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-10">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-10">
                                             Tahapan Implementasi</h4>
                                         <div
                                             class="relative space-y-8 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-px before:bg-white/10">
@@ -772,35 +772,35 @@
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     1</div>
-                                                <span class="text-sm text-white/60 font-medium">Persiapan dan Kajian
+                                                <span class="text-sm text-white font-medium">Persiapan dan Kajian
                                                     Awal</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     2</div>
-                                                <span class="text-sm text-white/60 font-medium">Partisipasi Warga &
+                                                <span class="text-sm text-white font-medium">Partisipasi Warga &
                                                     Analisis Mendalam</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     3</div>
-                                                <span class="text-sm text-white/60 font-medium">Perencanaan Aksi &
+                                                <span class="text-sm text-white font-medium">Perencanaan Aksi &
                                                     Strategi</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     4</div>
-                                                <span class="text-sm text-white/60 font-medium">Implementasi Intervensi
+                                                <span class="text-sm text-white font-medium">Implementasi Intervensi
                                                     Terukur</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     5</div>
-                                                <span class="text-sm text-white/60 font-medium">Evaluasi & Refleksi
+                                                <span class="text-sm text-white font-medium">Evaluasi & Refleksi
                                                     Berkelanjutan</span>
                                             </div>
                                         </div>
@@ -808,7 +808,7 @@
 
                                     <!-- Kesimpulan -->
                                     <div class="bg-accent/5 border border-accent/20 p-8 rounded-2xl italic">
-                                        <p class="text-white/60 leading-relaxed">
+                                        <p class="text-white leading-relaxed">
                                             "Pengembangan masyarakat yang efektif memerlukan kombinasi antara
                                             perencanaan yang matang, eksekusi yang disiplin, dan kemampuan adaptasi
                                             terhadap perubahan."
@@ -829,19 +829,19 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">02 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">02 /
                                     KEPEMIMPINAN</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Kepemimpinan Dasar</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed"></p>
+                                <p class="text-white text-lg font-light leading-relaxed"></p>
                             </div>
 
                             <div class="lg:col-span-7 h-[550px] overflow-y-auto pr-6 custom-scrollbar">
                                 <div class="space-y-10">
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
+                                        <p class="text-white text-xl font-light leading-relaxed">
                                             Kepemimpinan dasar merupakan fondasi utama dalam pengembangan kemampuan
                                             memimpin. Konsep ini mencakup pemahaman tentang peran pemimpin, teori-teori
                                             kepemimpinan klasik dan modern, serta karakteristik yang harus dimiliki oleh
@@ -851,9 +851,9 @@
 
                                     <!-- Tujuan & Komponen -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">Tujuan
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">Tujuan
                                             & Komponen</h4>
-                                        <p class="text-white/40 text-lg font-light leading-relaxed mb-10">
+                                        <p class="text-white text-lg font-light leading-relaxed mb-10">
                                             Materi ini bertujuan untuk membekali peserta dengan pengetahuan fundamental
                                             tentang kepemimpinan dan keterampilan dasar yang diperlukan untuk menjadi
                                             pemimpin yang efektif.
@@ -863,7 +863,7 @@
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Komponen
                                                     Utama</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Konsep Pemimpin:
+                                                <p class="text-xs text-white leading-relaxed">Konsep Pemimpin:
                                                     Perbedaan antara pemimpin dan manajer, serta peran strategis
                                                     pemimpin
                                                     Teori Kepemimpinan: Kajian teori klasik (trait, behavioral) dan
@@ -877,7 +877,7 @@
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Aspek
                                                     Pengembangan</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">
+                                                <p class="text-xs text-white leading-relaxed">
                                                     Pengembangan kesadaran diri dan emotional intelligence.
                                                     Pelatihan komunikasi efektif dan public speaking.
                                                     Latihan pengambilan keputusan di bawah tekanan.
@@ -887,14 +887,14 @@
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Intonasi
                                                     Vokal</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Pengaturan nada, jeda,
+                                                <p class="text-xs text-white leading-relaxed">Pengaturan nada, jeda,
                                                     dan penekanan kata.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Manajemen
                                                     Demam Panggung</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Teknik mengelola
+                                                <p class="text-xs text-white leading-relaxed">Teknik mengelola
                                                     kecemasan saat berbicara di depan umum.</p>
                                             </div>
                                         </div>
@@ -903,49 +903,49 @@
                                     <!-- Metode & Indikator -->
                                     <div class="grid md:grid-cols-2 gap-10">
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                                 Metode Latihan</h4>
                                             <ul class="space-y-6">
                                                 <li class="flex items-center gap-4 group/item">
                                                     <div
-                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/item:bg-accent group-hover/item:text-bg transition-all">
+                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-white group-hover/item:bg-accent group-hover/item:text-bg transition-all">
                                                         01</div>
-                                                    <span class="text-sm font-medium text-white/60">Practice in Front of
+                                                    <span class="text-sm font-medium text-white">Practice in Front of
                                                         Mirror</span>
                                                 </li>
                                                 <li class="flex items-center gap-4 group/item">
                                                     <div
-                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/item:bg-accent group-hover/item:text-bg transition-all">
+                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-white group-hover/item:bg-accent group-hover/item:text-bg transition-all">
                                                         02</div>
-                                                    <span class="text-sm font-medium text-white/60">Recording & Self
+                                                    <span class="text-sm font-medium text-white">Recording & Self
                                                         Review</span>
                                                 </li>
                                                 <li class="flex items-center gap-4 group/item">
                                                     <div
-                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-accent group-hover/item:bg-accent group-hover/item:text-bg transition-all">
+                                                        class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center text-white group-hover/item:bg-accent group-hover/item:text-bg transition-all">
                                                         03</div>
-                                                    <span class="text-sm font-medium text-white/60">Storytelling
+                                                    <span class="text-sm font-medium text-white">Storytelling
                                                         Workshop</span>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                                 Indikator Sukses</h4>
                                             <ul class="space-y-5">
                                                 <li class="flex gap-4 items-start">
-                                                    <i data-lucide="check" class="w-5 h-5 text-accent mt-1"></i>
-                                                    <span class="text-sm text-white/40">Pesan tersampaikan dengan
+                                                    <i data-lucide="check" class="w-5 h-5 text-white mt-1"></i>
+                                                    <span class="text-sm text-white">Pesan tersampaikan dengan
                                                         jelas</span>
                                                 </li>
                                                 <li class="flex gap-4 items-start">
-                                                    <i data-lucide="check" class="w-5 h-5 text-accent mt-1"></i>
-                                                    <span class="text-sm text-white/40">Audiens merasa
+                                                    <i data-lucide="check" class="w-5 h-5 text-white mt-1"></i>
+                                                    <span class="text-sm text-white">Audiens merasa
                                                         terinspirasi</span>
                                                 </li>
                                                 <li class="flex gap-4 items-start">
-                                                    <i data-lucide="check" class="w-5 h-5 text-accent mt-1"></i>
-                                                    <span class="text-sm text-white/40">Kepercayaan diri yang
+                                                    <i data-lucide="check" class="w-5 h-5 text-white mt-1"></i>
+                                                    <span class="text-sm text-white">Kepercayaan diri yang
                                                         stabil</span>
                                                 </li>
                                             </ul>
@@ -954,7 +954,7 @@
 
                                     <!-- Tahapan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-10">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-10">
                                             Tahapan Persiapan</h4>
                                         <div
                                             class="relative space-y-8 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-px before:bg-white/10">
@@ -962,27 +962,27 @@
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     1</div>
-                                                <span class="text-sm text-white/60 font-medium">Riset Audiens &
+                                                <span class="text-sm text-white font-medium">Riset Audiens &
                                                     Topik</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     2</div>
-                                                <span class="text-sm text-white/60 font-medium">Penyusunan Outline &
+                                                <span class="text-sm text-white font-medium">Penyusunan Outline &
                                                     Script</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     3</div>
-                                                <span class="text-sm text-white/60 font-medium">Latihan Intensif</span>
+                                                <span class="text-sm text-white font-medium">Latihan Intensif</span>
                                             </div>
                                             <div class="relative flex gap-8 items-start pl-8">
                                                 <div
                                                     class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold">
                                                     4</div>
-                                                <span class="text-sm text-white/60 font-medium">Delivery &
+                                                <span class="text-sm text-white font-medium">Delivery &
                                                     Engagement</span>
                                             </div>
                                         </div>
@@ -990,7 +990,7 @@
 
                                     <!-- Kesimpulan -->
                                     <div class="bg-accent/5 border border-accent/20 p-8 rounded-2xl italic">
-                                        <p class="text-white/60 leading-relaxed">
+                                        <p class="text-white leading-relaxed">
                                             "Kata-kata memiliki kekuatan untuk mengubah dunia jika disampaikan dengan
                                             ketulusan dan teknik yang tepat."
                                         </p>
@@ -1010,19 +1010,19 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">03 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">03 /
                                     DIPLOMASI</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Manajemen Aksi</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed"></p>
+                                <p class="text-white text-lg font-light leading-relaxed"></p>
                             </div>
 
                             <div class="lg:col-span-7 h-[550px] overflow-y-auto pr-6 custom-scrollbar">
                                 <div class="space-y-10">
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
+                                        <p class="text-white text-xl font-light leading-relaxed">
                                             suatu model pernyataan sikap penyuaraan pendapat opini atau tuntutan yg
                                             dilakukan dengan jumlah masa yg banyak dgn teknik tertentu untuk mendapat
                                             perhatian dari pihak ya dituju.
@@ -1038,9 +1038,9 @@
 
                                     <!-- Tujuan & Tahapan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Mekanisme & Tahapan</h4>
-                                        <p class="text-white/40 text-lg font-light leading-relaxed mb-10">
+                                        <p class="text-white text-lg font-light leading-relaxed mb-10">
                                             Keputusan aksi diambil melalui analisis SWOT yang mendalam untuk memastikan
                                             strategi yang tepat sasaran.
                                         </p>
@@ -1049,28 +1049,28 @@
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Diskusi
                                                     Awal</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Identifikasi isu dan
+                                                <p class="text-xs text-white leading-relaxed">Identifikasi isu dan
                                                     analisis kelayakan aksi secara kolektif.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Pembentukan
                                                     Tim</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Konsolidasi perangkat
+                                                <p class="text-xs text-white leading-relaxed">Konsolidasi perangkat
                                                     aksi dan pembagian peran strategis.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Diskusi
                                                     Lanjutan</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Matangkan skenario,
+                                                <p class="text-xs text-white leading-relaxed">Matangkan skenario,
                                                     rute, dan mitigasi risiko di lapangan.</p>
                                             </div>
                                             <div class="border-l-2 border-accent/20 pl-6">
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Aksi
                                                     Lapangan</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Eksekusi rencana dengan
+                                                <p class="text-xs text-white leading-relaxed">Eksekusi rencana dengan
                                                     disiplin komando dan koordinasi ketat.</p>
                                             </div>
                                         </div>
@@ -1078,52 +1078,52 @@
 
                                     <!-- Perangkat Aksi -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             Perangkat Aksi</h4>
                                         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">STRATEGIS</span>
+                                                <span class="text-[10px] text-white block mb-1">STRATEGIS</span>
                                                 <p class="text-sm font-bold">Koordinator Lapangan</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">MASSA</span>
+                                                <span class="text-[10px] text-white block mb-1">MASSA</span>
                                                 <p class="text-sm font-bold">Agitator</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">SUPPORT</span>
+                                                <span class="text-[10px] text-white block mb-1">SUPPORT</span>
                                                 <p class="text-sm font-bold">Tim Humas & Medis</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">SUARA</span>
+                                                <span class="text-[10px] text-white block mb-1">SUARA</span>
                                                 <p class="text-sm font-bold">Orator</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">VITAL</span>
+                                                <span class="text-[10px] text-white block mb-1">VITAL</span>
                                                 <p class="text-sm font-bold">Logistik</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">INTEL</span>
+                                                <span class="text-[10px] text-white block mb-1">INTEL</span>
                                                 <p class="text-sm font-bold">Radar Tim</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">DIPLOMASI</span>
+                                                <span class="text-[10px] text-white block mb-1">DIPLOMASI</span>
                                                 <p class="text-sm font-bold">Negosiator</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">ARTISTIK</span>
+                                                <span class="text-[10px] text-white block mb-1">ARTISTIK</span>
                                                 <p class="text-sm font-bold">Tim Kreatif</p>
                                             </div>
                                             <div
                                                 class="bg-white/5 p-4 rounded-lg border border-white/5 hover:border-accent/30 transition-colors">
-                                                <span class="text-[10px] text-accent block mb-1">ARSIP</span>
+                                                <span class="text-[10px] text-white block mb-1">ARSIP</span>
                                                 <p class="text-sm font-bold">Dokumenter</p>
                                             </div>
                                         </div>
@@ -1132,56 +1132,56 @@
                                     <!-- Hal yang Diperhatikan -->
                                     <div class="grid md:grid-cols-2 gap-10">
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                                 Pertimbangan Utama</h4>
                                             <ul class="space-y-4">
                                                 <li class="flex items-start gap-4">
                                                     <div
-                                                        class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] text-accent shrink-0">
+                                                        class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] text-white shrink-0">
                                                         1</div>
                                                     <div>
                                                         <p class="text-sm font-bold">Tema / Isu</p>
-                                                        <p class="text-[10px] text-white/30">Relevansi dan urgensi
+                                                        <p class="text-[10px] text-white">Relevansi dan urgensi
                                                             materi aksi.</p>
                                                     </div>
                                                 </li>
                                                 <li class="flex items-start gap-4">
                                                     <div
-                                                        class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] text-accent shrink-0">
+                                                        class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] text-white shrink-0">
                                                         2</div>
                                                     <div>
                                                         <p class="text-sm font-bold">Target Terukur</p>
-                                                        <p class="text-[10px] text-white/30">Teknis, pencapaian, dan
+                                                        <p class="text-[10px] text-white">Teknis, pencapaian, dan
                                                             jumlah massa.</p>
                                                     </div>
                                                 </li>
                                                 <li class="flex items-start gap-4">
                                                     <div
-                                                        class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] text-accent shrink-0">
+                                                        class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] text-white shrink-0">
                                                         3</div>
                                                     <div>
                                                         <p class="text-sm font-bold">Skenario Lapangan</p>
-                                                        <p class="text-[10px] text-white/30">Rute aksi dan penempatan
+                                                        <p class="text-[10px] text-white">Rute aksi dan penempatan
                                                             tokoh orator.</p>
                                                     </div>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                                 Format Aksi</h4>
                                             <div class="space-y-6">
                                                 <div class="border-b border-white/5 pb-4">
                                                     <span
-                                                        class="text-[10px] text-accent uppercase tracking-widest font-bold">Nirkekerasan</span>
-                                                    <p class="text-xs text-white/40 mt-1">Aksi diam, aksi bisu, dan
+                                                        class="text-[10px] text-white uppercase tracking-widest font-bold">Nirkekerasan</span>
+                                                    <p class="text-xs text-white mt-1">Aksi diam, aksi bisu, dan
                                                         teatrikal yang mengedepankan pesan simbolik.</p>
                                                 </div>
                                                 <div>
                                                     <span
-                                                        class="text-[10px] text-accent uppercase tracking-widest font-bold">Medan
+                                                        class="text-[10px] text-white uppercase tracking-widest font-bold">Medan
                                                         Juang Baru</span>
-                                                    <p class="text-xs text-white/40 mt-1">Transformasi ke ruang siber:
+                                                    <p class="text-xs text-white mt-1">Transformasi ke ruang siber:
                                                         demonstrasi digital dan kampanye virtual.</p>
                                                 </div>
                                             </div>
@@ -1190,11 +1190,11 @@
 
                                     <!-- Senjata Kordes Informatika -->
                                     <div class="glass-v2 p-10 rounded-2xl bg-blue-900/10 border-blue-500/20">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Senjata Kordes Informatika</h4>
                                         <div class="grid md:grid-cols-2 gap-10">
                                             <div class="space-y-4">
-                                                <p class="text-sm text-white/60 leading-relaxed italic">"Demonstrasi
+                                                <p class="text-sm text-white leading-relaxed italic">"Demonstrasi
                                                     tidak lagi sebatas fisik, ruang siber adalah medan juang baru kita."
                                                 </p>
                                                 <div class="flex flex-wrap gap-2">
@@ -1210,19 +1210,19 @@
                                                 </div>
                                             </div>
                                             <div class="space-y-4">
-                                                <p class="text-xs text-white/40">Fungsi utama website aksi:</p>
+                                                <p class="text-xs text-white">Fungsi utama website aksi:</p>
                                                 <ul class="grid grid-cols-2 gap-2">
-                                                    <li class="flex items-center gap-2 text-[10px] text-white/60"><i
-                                                            data-lucide="shield" class="w-3 h-3 text-accent"></i> SEO
+                                                    <li class="flex items-center gap-2 text-[10px] text-white"><i
+                                                            data-lucide="shield" class="w-3 h-3 text-white"></i> SEO
                                                         Strategis</li>
-                                                    <li class="flex items-center gap-2 text-[10px] text-white/60"><i
-                                                            data-lucide="zap" class="w-3 h-3 text-accent"></i> Kampanye
+                                                    <li class="flex items-center gap-2 text-[10px] text-white"><i
+                                                            data-lucide="zap" class="w-3 h-3 text-white"></i> Kampanye
                                                         Terukur</li>
-                                                    <li class="flex items-center gap-2 text-[10px] text-white/60"><i
-                                                            data-lucide="globe" class="w-3 h-3 text-accent"></i>
+                                                    <li class="flex items-center gap-2 text-[10px] text-white"><i
+                                                            data-lucide="globe" class="w-3 h-3 text-white"></i>
                                                         Jangkauan Luas</li>
-                                                    <li class="flex items-center gap-2 text-[10px] text-white/60"><i
-                                                            data-lucide="bar-chart" class="w-3 h-3 text-accent"></i>
+                                                    <li class="flex items-center gap-2 text-[10px] text-white"><i
+                                                            data-lucide="bar-chart" class="w-3 h-3 text-white"></i>
                                                         Analisis Data</li>
                                                 </ul>
                                             </div>
@@ -1250,10 +1250,10 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">04 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">04 /
                                     DIGITAL SOVEREIGNTY</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Otoritas Informasi</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed">Data sebagai senjata utama
+                                <p class="text-white text-lg font-light leading-relaxed">Data sebagai senjata utama
                                     kepemimpinan modern di era informasi.</p>
                             </div>
 
@@ -1262,11 +1262,11 @@
 
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
+                                        <p class="text-white text-xl font-light leading-relaxed">
                                             Dalam era informasi ini, data dipandang sebagai <span
-                                                class="text-accent font-semibold">senjata utama kepemimpinan
+                                                class="text-white font-semibold">senjata utama kepemimpinan
                                                 modern</span>. Filosofi kekuasaan terletak pada kemampuan seorang
                                             pemimpin dalam mengelola, mendistribusikan, dan merahasiakan data untuk
                                             menjaga stabilitas serta kedaulatan organisasi.
@@ -1275,9 +1275,9 @@
 
                                     <!-- Tiga Pilar Utama -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">Tiga
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">Tiga
                                             Pilar Otoritas</h4>
-                                        <p class="text-white/40 text-lg font-light leading-relaxed mb-10">
+                                        <p class="text-white text-lg font-light leading-relaxed mb-10">
                                             Otoritas dibangun di atas tiga fondasi utama yang saling menopang satu sama
                                             lain.
                                         </p>
@@ -1286,34 +1286,34 @@
                                                 class="bg-accent/5 border border-accent/20 p-6 rounded-xl text-center hover:bg-accent/10 transition-all">
                                                 <div
                                                     class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4">
-                                                    <i data-lucide="layers" class="w-5 h-5 text-accent"></i>
+                                                    <i data-lucide="layers" class="w-5 h-5 text-white"></i>
                                                 </div>
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Struktur</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Membangun hierarki
+                                                <p class="text-xs text-white leading-relaxed">Membangun hierarki
                                                     informasi yang jelas dan teratur.</p>
                                             </div>
                                             <div
                                                 class="bg-accent/5 border border-accent/20 p-6 rounded-xl text-center hover:bg-accent/10 transition-all">
                                                 <div
                                                     class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4">
-                                                    <i data-lucide="shield-check" class="w-5 h-5 text-accent"></i>
+                                                    <i data-lucide="shield-check" class="w-5 h-5 text-white"></i>
                                                 </div>
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Validasi</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">Alur verifikasi data
+                                                <p class="text-xs text-white leading-relaxed">Alur verifikasi data
                                                     yang akurat dan terpercaya.</p>
                                             </div>
                                             <div
                                                 class="bg-accent/5 border border-accent/20 p-6 rounded-xl text-center hover:bg-accent/10 transition-all">
                                                 <div
                                                     class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4">
-                                                    <i data-lucide="key" class="w-5 h-5 text-accent"></i>
+                                                    <i data-lucide="key" class="w-5 h-5 text-white"></i>
                                                 </div>
                                                 <span
                                                     class="text-white font-bold block mb-2 uppercase text-sm tracking-widest">Hak
                                                     Akses</span>
-                                                <p class="text-xs text-white/30 leading-relaxed">RBAC — Role-Based
+                                                <p class="text-xs text-white leading-relaxed">RBAC — Role-Based
                                                     Access Control untuk tiap pemegang wewenang.</p>
                                             </div>
                                         </div>
@@ -1321,23 +1321,23 @@
 
                                     <!-- Code in Law -->
                                     <div class="glass-v2 p-10 rounded-2xl bg-blue-900/10 border-blue-500/20">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Code In Law — Mahasiswa sebagai Arsitek Digital</h4>
                                         <p class="text-white/70 leading-relaxed mb-6">
                                             Mahasiswa informatika memiliki peran krusial sebagai <span
-                                                class="text-accent font-semibold">arsitek hukum dalam kedaulatan
+                                                class="text-white font-semibold">arsitek hukum dalam kedaulatan
                                                 digital</span>. Sebuah kode program dianggap sebagai hukum yang mendikte
                                             sistem, dengan ketua himpunan memegang otoritas tertinggi.
                                         </p>
                                         <div class="grid md:grid-cols-2 gap-4">
                                             <div class="flex items-center gap-3 bg-white/5 rounded-lg p-4">
-                                                <i data-lucide="code-2" class="w-5 h-5 text-accent shrink-0"></i>
-                                                <span class="text-sm text-white/60">Kode = Hukum yang Mendikte
+                                                <i data-lucide="code-2" class="w-5 h-5 text-white shrink-0"></i>
+                                                <span class="text-sm text-white">Kode = Hukum yang Mendikte
                                                     Sistem</span>
                                             </div>
                                             <div class="flex items-center gap-3 bg-white/5 rounded-lg p-4">
-                                                <i data-lucide="crown" class="w-5 h-5 text-accent shrink-0"></i>
-                                                <span class="text-sm text-white/60">Ketua Himpunan = Otoritas
+                                                <i data-lucide="crown" class="w-5 h-5 text-white shrink-0"></i>
+                                                <span class="text-sm text-white">Ketua Himpunan = Otoritas
                                                     Tertinggi</span>
                                             </div>
                                         </div>
@@ -1345,7 +1345,7 @@
 
                                     <!-- Krisis Sistemik -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Krisis Sistemik 2026 — Urgensi Otoritas</h4>
                                         <div class="space-y-4">
                                             <div
@@ -1357,7 +1357,7 @@
                                                 <div>
                                                     <p class="text-sm font-bold text-red-300 mb-1">Kebocoran 58 Juta
                                                         Data Pendidikan</p>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Kegagalan menjaga
+                                                    <p class="text-xs text-white leading-relaxed">Kegagalan menjaga
                                                         otoritas informasi yang mengancam jutaan data pelajar Indonesia.
                                                     </p>
                                                 </div>
@@ -1371,7 +1371,7 @@
                                                 <div>
                                                     <p class="text-sm font-bold text-orange-300 mb-1">Kasus IGRS —
                                                         Komdigi</p>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Indonesia Game
+                                                    <p class="text-xs text-white leading-relaxed">Indonesia Game
                                                         Rating System: hilangnya kepercayaan industri dunia akibat tata
                                                         kelola informasi yang lemah.</p>
                                                 </div>
@@ -1381,7 +1381,7 @@
 
                                     <!-- Klasifikasi Akses -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             Klasifikasi Otoritas Akses (RBAC)</h4>
                                         <div class="space-y-4">
                                             <!-- Publik -->
@@ -1402,8 +1402,8 @@
                                                     <p class="text-xs text-white/50 mb-2"><span
                                                             class="text-white/70 font-semibold">Akses:</span> Profil,
                                                         Agenda, Berita Umum</p>
-                                                    <p class="text-xs text-white/40"><span
-                                                            class="text-white/60 font-semibold">Wewenang:</span>
+                                                    <p class="text-xs text-white"><span
+                                                            class="text-white font-semibold">Wewenang:</span>
                                                         Transparansi & Branding</p>
                                                 </div>
                                             </div>
@@ -1424,8 +1424,8 @@
                                                     <p class="text-xs text-white/50 mb-2"><span
                                                             class="text-white/70 font-semibold">Akses:</span> Draf
                                                         Keputusan</p>
-                                                    <p class="text-xs text-white/40"><span
-                                                            class="text-white/60 font-semibold">Wewenang:</span>
+                                                    <p class="text-xs text-white"><span
+                                                            class="text-white font-semibold">Wewenang:</span>
                                                         Manajerial & Taktis</p>
                                                 </div>
                                             </div>
@@ -1447,8 +1447,8 @@
                                                     <p class="text-xs text-white/50 mb-2"><span
                                                             class="text-white/70 font-semibold">Akses:</span> Data
                                                         Kader, Strategi</p>
-                                                    <p class="text-xs text-white/40"><span
-                                                            class="text-white/60 font-semibold">Wewenang:</span>
+                                                    <p class="text-xs text-white"><span
+                                                            class="text-white font-semibold">Wewenang:</span>
                                                         Proteksi & Integritas Mutlak</p>
                                                 </div>
                                             </div>
@@ -1457,51 +1457,51 @@
 
                                     <!-- Siklus Manajemen Otoritas -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-10">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-10">
                                             Siklus Manajemen Otoritas</h4>
                                         <div
                                             class="relative space-y-8 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-px before:bg-accent/20">
                                             <div class="relative flex gap-6 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     1</div>
                                                 <div>
                                                     <span
                                                         class="text-sm text-white font-bold block mb-1">Akuisisi</span>
-                                                    <p class="text-xs text-white/40">Pengumpulan data mentah yang akurat
+                                                    <p class="text-xs text-white">Pengumpulan data mentah yang akurat
                                                         dan valid dari berbagai sumber.</p>
                                                 </div>
                                             </div>
                                             <div class="relative flex gap-6 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     2</div>
                                                 <div>
                                                     <span
                                                         class="text-sm text-white font-bold block mb-1">Klasifikasi</span>
-                                                    <p class="text-xs text-white/40">Menentukan tingkat kerahasiaan data
+                                                    <p class="text-xs text-white">Menentukan tingkat kerahasiaan data
                                                         sesuai hierarki akses yang berlaku.</p>
                                                 </div>
                                             </div>
                                             <div class="relative flex gap-6 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     3</div>
                                                 <div>
                                                     <span
                                                         class="text-sm text-white font-bold block mb-1">Distribusi</span>
-                                                    <p class="text-xs text-white/40">Penyampaian informasi kepada para
+                                                    <p class="text-xs text-white">Penyampaian informasi kepada para
                                                         pemegang wewenang yang tepat.</p>
                                                 </div>
                                             </div>
                                             <div class="relative flex gap-6 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     4</div>
                                                 <div>
                                                     <span
                                                         class="text-sm text-white font-bold block mb-1">Proteksi</span>
-                                                    <p class="text-xs text-white/40">Menjaga integritas data — termasuk
+                                                    <p class="text-xs text-white">Menjaga integritas data — termasuk
                                                         penghapusan data jika diperlukan demi keamanan organisasi.</p>
                                                 </div>
                                             </div>
@@ -1529,10 +1529,10 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">05 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">05 /
                                     KOMUNIKASI</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Retorika</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed">Seni berbicara yang
+                                <p class="text-white text-lg font-light leading-relaxed">Seni berbicara yang
                                     mempengaruhi, meyakinkan, dan menginspirasi.</p>
                             </div>
 
@@ -1541,19 +1541,19 @@
 
                                     <!-- Pengertian & Tujuan -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Definisi & Tujuan</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed mb-6">
-                                            Retorika adalah <span class="text-accent font-semibold">seni berbicara atau
+                                        <p class="text-white text-xl font-light leading-relaxed mb-6">
+                                            Retorika adalah <span class="text-white font-semibold">seni berbicara atau
                                                 menulis secara efektif dan persuasif</span> untuk mempengaruhi,
                                             meyakinkan, atau menginspirasi audiens melalui bahasa yang tepat dan
                                             strategis.
                                         </p>
                                         <div
                                             class="flex items-start gap-4 bg-accent/5 border border-accent/10 p-5 rounded-xl">
-                                            <i data-lucide="target" class="w-5 h-5 text-accent shrink-0 mt-1"></i>
-                                            <p class="text-sm text-white/60 leading-relaxed"><span
-                                                    class="text-white/80 font-semibold">Tujuan:</span> Mempengaruhi,
+                                            <i data-lucide="target" class="w-5 h-5 text-white shrink-0 mt-1"></i>
+                                            <p class="text-sm text-white leading-relaxed"><span
+                                                    class="text-white font-semibold">Tujuan:</span> Mempengaruhi,
                                                 meyakinkan, atau menginspirasi audiens melalui bahasa yang tepat dan
                                                 strategis.</p>
                                         </div>
@@ -1561,7 +1561,7 @@
 
                                     <!-- Tiga Prinsip Dasar -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">Tiga
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">Tiga
                                             Prinsip Dasar Retorika</h4>
                                         <div class="space-y-5">
                                             <!-- Ethos -->
@@ -1631,67 +1631,67 @@
 
                                     <!-- Teknik Berbicara -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             5 Teknik Berbicara Efektif</h4>
                                         <div class="space-y-5">
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0 mt-1">
                                                     01</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Story
                                                         Telling</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Berfungsi agar
+                                                    <p class="text-xs text-white leading-relaxed">Berfungsi agar
                                                         terbentuknya koneksi emosional yang kuat antara pembicara dan
                                                         audiens.</p>
                                                 </div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0 mt-1">
                                                     02</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Bahasa Tubuh &
                                                         Intonasi</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Agar pendapat atau
+                                                    <p class="text-xs text-white leading-relaxed">Agar pendapat atau
                                                         argumen yang disampaikan terasa lebih hidup, dinamis, dan
                                                         meyakinkan.</p>
                                                 </div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0 mt-1">
                                                     03</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Struktur yang
                                                         Jelas</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Penyampaian harus
-                                                        berstruktur: <span class="text-white/60">Pembuka → Isi →
+                                                    <p class="text-xs text-white leading-relaxed">Penyampaian harus
+                                                        berstruktur: <span class="text-white">Pembuka → Isi →
                                                             Penutup</span> agar audiens mudah mengikuti alur pikiran.
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0 mt-1">
                                                     04</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Data & Contoh
                                                         Konkret</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Menambah
+                                                    <p class="text-xs text-white leading-relaxed">Menambah
                                                         kepercayaan audiens dengan bukti nyata, statistik, atau
                                                         ilustrasi yang relevan.</p>
                                                 </div>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0 mt-1">
                                                     05</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Latihan</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Kunci dari
+                                                    <p class="text-xs text-white leading-relaxed">Kunci dari
                                                         segalanya adalah <span
-                                                            class="text-white/60 font-semibold">percaya diri</span> —
+                                                            class="text-white font-semibold">percaya diri</span> —
                                                         dan itu hanya lahir dari kebiasaan berlatih secara konsisten.
                                                     </p>
                                                 </div>
@@ -1721,10 +1721,10 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">06 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">06 /
                                     ORGANISASI</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Analisis Organisasi</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed">Memahami kondisi organisasi
+                                <p class="text-white text-lg font-light leading-relaxed">Memahami kondisi organisasi
                                     untuk menemukan masalah, potensi, dan arah perbaikan.</p>
                             </div>
 
@@ -1733,10 +1733,10 @@
 
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
-                                            Analisis organisasi adalah <span class="text-accent font-semibold">proses
+                                        <p class="text-white text-xl font-light leading-relaxed">
+                                            Analisis organisasi adalah <span class="text-white font-semibold">proses
                                                 memahami kondisi sebuah organisasi</span> untuk menemukan masalah,
                                             potensi, dan arah perbaikan — sehingga organisasi dapat mengetahui apa yang
                                             sudah berjalan baik dan apa yang masih perlu diperbaiki.
@@ -1745,39 +1745,39 @@
 
                                     <!-- Tujuan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">Tujuan
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">Tujuan
                                             Analisis Organisasi</h4>
                                         <div class="space-y-4">
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-1">
                                                     1</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Mengetahui <span
-                                                        class="text-white/80 font-semibold">kondisi nyata</span>
+                                                <p class="text-sm text-white leading-relaxed">Mengetahui <span
+                                                        class="text-white font-semibold">kondisi nyata</span>
                                                     organisasi secara objektif.</p>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-1">
                                                     2</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Mengidentifikasi <span
-                                                        class="text-white/80 font-semibold">akar masalah</span> yang
+                                                <p class="text-sm text-white leading-relaxed">Mengidentifikasi <span
+                                                        class="text-white font-semibold">akar masalah</span> yang
                                                     sesungguhnya terjadi.</p>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-1">
                                                     3</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Membantu <span
-                                                        class="text-white/80 font-semibold">pengambilan keputusan</span>
+                                                <p class="text-sm text-white leading-relaxed">Membantu <span
+                                                        class="text-white font-semibold">pengambilan keputusan</span>
                                                     yang lebih tepat dan berbasis data.</p>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-1">
+                                                    class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-1">
                                                     4</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Menjadi dasar <span
-                                                        class="text-white/80 font-semibold">penyusunan strategi
+                                                <p class="text-sm text-white leading-relaxed">Menjadi dasar <span
+                                                        class="text-white font-semibold">penyusunan strategi
                                                         perbaikan</span> yang berkelanjutan.</p>
                                             </div>
                                         </div>
@@ -1785,7 +1785,7 @@
 
                                     <!-- Ruang Lingkup: Internal & Eksternal -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">Ruang
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">Ruang
                                             Lingkup Analisis</h4>
                                         <div class="grid md:grid-cols-2 gap-6">
                                             <!-- Internal -->
@@ -1844,47 +1844,47 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <p class="text-xs text-white/30 mt-5 italic">Kedua faktor ini saling berhubungan
+                                        <p class="text-xs text-white mt-5 italic">Kedua faktor ini saling berhubungan
                                             — lingkungan luar dapat memengaruhi jalannya organisasi secara langsung.</p>
                                     </div>
 
                                     <!-- Metode Analisis -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">Metode
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">Metode
                                             Analisis</h4>
                                         <div class="grid md:grid-cols-3 gap-4">
                                             <div
                                                 class="bg-accent/5 border border-accent/10 p-5 rounded-xl text-center hover:bg-accent/10 transition-all">
                                                 <div
                                                     class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-3">
-                                                    <i data-lucide="eye" class="w-5 h-5 text-accent"></i>
+                                                    <i data-lucide="eye" class="w-5 h-5 text-white"></i>
                                                 </div>
                                                 <span
                                                     class="text-xs font-bold text-white uppercase tracking-wider block mb-2">Observasi</span>
-                                                <p class="text-[10px] text-white/30 leading-relaxed">Pengamatan langsung
+                                                <p class="text-[10px] text-white leading-relaxed">Pengamatan langsung
                                                     terhadap aktivitas organisasi di lapangan.</p>
                                             </div>
                                             <div
                                                 class="bg-accent/5 border border-accent/10 p-5 rounded-xl text-center hover:bg-accent/10 transition-all">
                                                 <div
                                                     class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-3">
-                                                    <i data-lucide="message-circle" class="w-5 h-5 text-accent"></i>
+                                                    <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
                                                 </div>
                                                 <span
                                                     class="text-xs font-bold text-white uppercase tracking-wider block mb-2">Wawancara</span>
-                                                <p class="text-[10px] text-white/30 leading-relaxed">Diskusi untuk
+                                                <p class="text-[10px] text-white leading-relaxed">Diskusi untuk
                                                     menggali pengalaman dan hambatan dari anggota.</p>
                                             </div>
                                             <div
                                                 class="bg-accent/5 border border-accent/10 p-5 rounded-xl text-center hover:bg-accent/10 transition-all">
                                                 <div
                                                     class="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-3">
-                                                    <i data-lucide="file-text" class="w-5 h-5 text-accent"></i>
+                                                    <i data-lucide="file-text" class="w-5 h-5 text-white"></i>
                                                 </div>
                                                 <span
                                                     class="text-xs font-bold text-white uppercase tracking-wider block mb-2">Studi
                                                     Dokumen</span>
-                                                <p class="text-[10px] text-white/30 leading-relaxed">Telaah laporan,
+                                                <p class="text-[10px] text-white leading-relaxed">Telaah laporan,
                                                     aturan, dan program kerja yang ada.</p>
                                             </div>
                                         </div>
@@ -1894,7 +1894,7 @@
                                     <div class="grid md:grid-cols-2 gap-8">
                                         <!-- Klasifikasi -->
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                                 Klasifikasi Hasil</h4>
                                             <div class="space-y-3">
                                                 <div
@@ -1924,39 +1924,39 @@
                                         </div>
                                         <!-- Problem Solving -->
                                         <div class="glass-v2 p-8 rounded-2xl">
-                                            <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                            <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                                 Langkah Problem Solving</h4>
                                             <div
                                                 class="relative space-y-5 before:absolute before:left-[9px] before:top-2 before:bottom-2 before:w-px before:bg-accent/20">
                                                 <div class="relative flex gap-4 items-start pl-7">
                                                     <div
-                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-accent">
+                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-white">
                                                         1</div>
-                                                    <span class="text-xs text-white/60">Temukan fakta utama</span>
+                                                    <span class="text-xs text-white">Temukan fakta utama</span>
                                                 </div>
                                                 <div class="relative flex gap-4 items-start pl-7">
                                                     <div
-                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-accent">
+                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-white">
                                                         2</div>
-                                                    <span class="text-xs text-white/60">Cari akar masalah</span>
+                                                    <span class="text-xs text-white">Cari akar masalah</span>
                                                 </div>
                                                 <div class="relative flex gap-4 items-start pl-7">
                                                     <div
-                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-accent">
+                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-white">
                                                         3</div>
-                                                    <span class="text-xs text-white/60">Nilai dampaknya</span>
+                                                    <span class="text-xs text-white">Nilai dampaknya</span>
                                                 </div>
                                                 <div class="relative flex gap-4 items-start pl-7">
                                                     <div
-                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-accent">
+                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-white">
                                                         4</div>
-                                                    <span class="text-xs text-white/60">Susun alternatif solusi</span>
+                                                    <span class="text-xs text-white">Susun alternatif solusi</span>
                                                 </div>
                                                 <div class="relative flex gap-4 items-start pl-7">
                                                     <div
-                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-accent">
+                                                        class="absolute left-0 w-5 h-5 rounded-full bg-bg border border-accent flex items-center justify-center text-[9px] font-bold text-white">
                                                         5</div>
-                                                    <span class="text-xs text-white/60">Tentukan tindak lanjut</span>
+                                                    <span class="text-xs text-white">Tentukan tindak lanjut</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1984,11 +1984,11 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">07 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">07 /
                                     SOSIAL POLITIK</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Dinamika Sosial & Politik
                                 </h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed">Interaksi kompleks antara
+                                <p class="text-white text-lg font-light leading-relaxed">Interaksi kompleks antara
                                     individu, kelompok, dan institusi dalam konteks sosial dan politik.</p>
                             </div>
 
@@ -1997,11 +1997,11 @@
 
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
+                                        <p class="text-white text-xl font-light leading-relaxed">
                                             Dinamika Sosial dan Politik mempelajari <span
-                                                class="text-accent font-semibold">interaksi kompleks antara individu,
+                                                class="text-white font-semibold">interaksi kompleks antara individu,
                                                 kelompok, dan institusi</span> dalam konteks sosial dan politik —
                                             menganalisis bagaimana kekuasaan, pengaruh, dan relasi sosial membentuk
                                             struktur masyarakat dan proses pengambilan keputusan.
@@ -2010,7 +2010,7 @@
 
                                     <!-- Tujuan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4">Tujuan
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4">Tujuan
                                         </h4>
                                         <p class="text-white/50 text-base font-light leading-relaxed">
                                             Memberikan pemahaman tentang <span
@@ -2021,7 +2021,7 @@
 
                                     <!-- Komponen Utama -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             Komponen Utama</h4>
                                         <div class="grid md:grid-cols-2 gap-5">
                                             <div
@@ -2033,7 +2033,7 @@
                                                 <div>
                                                     <span class="text-sm font-bold text-blue-300 block mb-1">Struktur
                                                         Sosial</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Analisis
+                                                    <p class="text-[11px] text-white leading-relaxed">Analisis
                                                         stratifikasi sosial, kelas, dan mobilitas sosial dalam
                                                         masyarakat.</p>
                                                 </div>
@@ -2047,7 +2047,7 @@
                                                 <div>
                                                     <span class="text-sm font-bold text-purple-300 block mb-1">Dinamika
                                                         Politik</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Sistem politik,
+                                                    <p class="text-[11px] text-white leading-relaxed">Sistem politik,
                                                         proses pengambilan keputusan, dan distribusi kekuasaan.</p>
                                                 </div>
                                             </div>
@@ -2060,7 +2060,7 @@
                                                 <div>
                                                     <span class="text-sm font-bold text-red-300 block mb-1">Konflik
                                                         Sosial</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Sumber konflik,
+                                                    <p class="text-[11px] text-white leading-relaxed">Sumber konflik,
                                                         mekanisme resolusi, dan manajemen konflik yang efektif.</p>
                                                 </div>
                                             </div>
@@ -2073,7 +2073,7 @@
                                                 <div>
                                                     <span class="text-sm font-bold text-green-300 block mb-1">Perubahan
                                                         Sosial</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Teori
+                                                    <p class="text-[11px] text-white leading-relaxed">Teori
                                                         modernisasi, globalisasi, dan dampaknya terhadap masyarakat.</p>
                                                 </div>
                                             </div>
@@ -2082,39 +2082,39 @@
 
                                     <!-- Aplikasi dalam Kepemimpinan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             Aplikasi dalam Kepemimpinan</h4>
                                         <div class="space-y-4">
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-0.5">
+                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-0.5">
                                                     1</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Memahami <span
-                                                        class="text-white/80 font-semibold">konteks sosial
+                                                <p class="text-sm text-white leading-relaxed">Memahami <span
+                                                        class="text-white font-semibold">konteks sosial
                                                         politik</span> organisasi secara menyeluruh.</p>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-0.5">
+                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-0.5">
                                                     2</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Mengidentifikasi <span
-                                                        class="text-white/80 font-semibold">stakeholder</span> dan
+                                                <p class="text-sm text-white leading-relaxed">Mengidentifikasi <span
+                                                        class="text-white font-semibold">stakeholder</span> dan
                                                     dinamika kekuasaan (power dynamics) di dalamnya.</p>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-0.5">
+                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-0.5">
                                                     3</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Membangun <span
-                                                        class="text-white/80 font-semibold">koalisi dan aliansi
+                                                <p class="text-sm text-white leading-relaxed">Membangun <span
+                                                        class="text-white font-semibold">koalisi dan aliansi
                                                         strategis</span> yang saling menguntungkan.</p>
                                             </div>
                                             <div class="flex items-start gap-4">
                                                 <div
-                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-accent shrink-0 mt-0.5">
+                                                    class="w-7 h-7 rounded-full bg-accent/20 flex items-center justify-center text-[10px] font-bold text-white shrink-0 mt-0.5">
                                                     4</div>
-                                                <p class="text-sm text-white/60 leading-relaxed">Mengelola <span
-                                                        class="text-white/80 font-semibold">perubahan organisasi</span>
+                                                <p class="text-sm text-white leading-relaxed">Mengelola <span
+                                                        class="text-white font-semibold">perubahan organisasi</span>
                                                     dengan mempertimbangkan aspek sosial secara bijak.</p>
                                             </div>
                                         </div>
@@ -2142,10 +2142,10 @@
                                         class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
                                     <div class="absolute inset-0 bg-blue-950/40 mix-blend-multiply"></div>
                                 </div>
-                                <span class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4 block">08 /
+                                <span class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4 block">08 /
                                     PENGEMBANGAN</span>
                                 <h2 class="text-5xl font-bold uppercase mb-6 leading-tight">Pengembangan Organisasi</h2>
-                                <p class="text-white/60 text-lg font-light leading-relaxed">Proses sistematis untuk
+                                <p class="text-white text-lg font-light leading-relaxed">Proses sistematis untuk
                                     meningkatkan kapasitas, efektivitas, dan keberlanjutan organisasi.</p>
                             </div>
 
@@ -2154,11 +2154,11 @@
 
                                     <!-- Pengertian -->
                                     <div class="glass-v2 p-10 rounded-2xl border-l-4 border-accent">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-6">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-6">
                                             Pengertian</h4>
-                                        <p class="text-white/80 text-xl font-light leading-relaxed">
+                                        <p class="text-white text-xl font-light leading-relaxed">
                                             Pengembangan dan Pembangunan Organisasi adalah <span
-                                                class="text-accent font-semibold">proses sistematis untuk meningkatkan
+                                                class="text-white font-semibold">proses sistematis untuk meningkatkan
                                                 kapasitas, efektivitas, dan keberlanjutan organisasi</span> — mencakup
                                             perencanaan strategis, implementasi perubahan, pengembangan SDM, dan
                                             pembangunan budaya organisasi yang adaptif.
@@ -2167,7 +2167,7 @@
 
                                     <!-- Tujuan -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-4">Tujuan
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-4">Tujuan
                                         </h4>
                                         <p class="text-white/50 text-base font-light leading-relaxed">
                                             Memberikan pemahaman dan keterampilan dalam <span
@@ -2179,7 +2179,7 @@
 
                                     <!-- Komponen Utama -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             Komponen Utama</h4>
                                         <div class="grid md:grid-cols-2 gap-5">
                                             <div
@@ -2191,7 +2191,7 @@
                                                 <div>
                                                     <span class="text-sm font-bold text-blue-300 block mb-1">Perencanaan
                                                         Strategis</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Visi, misi, dan
+                                                    <p class="text-[11px] text-white leading-relaxed">Visi, misi, dan
                                                         strategi pengembangan jangka panjang organisasi.</p>
                                                 </div>
                                             </div>
@@ -2205,7 +2205,7 @@
                                                     <span
                                                         class="text-sm font-bold text-green-300 block mb-1">Pengembangan
                                                         SDM</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Pelatihan,
+                                                    <p class="text-[11px] text-white leading-relaxed">Pelatihan,
                                                         pengembangan karir, dan retensi talenta terbaik.</p>
                                                 </div>
                                             </div>
@@ -2218,7 +2218,7 @@
                                                 <div>
                                                     <span class="text-sm font-bold text-orange-300 block mb-1">Inovasi &
                                                         Perubahan</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Manajemen
+                                                    <p class="text-[11px] text-white leading-relaxed">Manajemen
                                                         perubahan dan implementasi inovasi yang terencana.</p>
                                                 </div>
                                             </div>
@@ -2233,7 +2233,7 @@
                                                     <span
                                                         class="text-sm font-bold text-purple-300 block mb-1">Pembangunan
                                                         Budaya</span>
-                                                    <p class="text-[11px] text-white/40 leading-relaxed">Penguatan
+                                                    <p class="text-[11px] text-white leading-relaxed">Penguatan
                                                         nilai-nilai dan norma organisasi yang positif.</p>
                                                 </div>
                                             </div>
@@ -2242,51 +2242,51 @@
 
                                     <!-- Strategi Implementasi -->
                                     <div class="glass-v2 p-10 rounded-2xl">
-                                        <h4 class="text-accent text-xs font-bold tracking-[0.4em] uppercase mb-8">
+                                        <h4 class="text-white text-xs font-bold tracking-[0.4em] uppercase mb-8">
                                             Strategi Implementasi</h4>
                                         <div
                                             class="relative space-y-6 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-px before:bg-accent/20">
                                             <div class="relative flex gap-5 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     1</div>
                                                 <div>
                                                     <span
                                                         class="text-sm font-bold text-white block mb-1">Assessment</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Penilaian kondisi
+                                                    <p class="text-xs text-white leading-relaxed">Penilaian kondisi
                                                         organisasi saat ini secara komprehensif dan objektif.</p>
                                                 </div>
                                             </div>
                                             <div class="relative flex gap-5 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     2</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Perumusan
                                                         Rencana</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Penyusunan rencana
+                                                    <p class="text-xs text-white leading-relaxed">Penyusunan rencana
                                                         pengembangan strategis yang terukur dan realistis.</p>
                                                 </div>
                                             </div>
                                             <div class="relative flex gap-5 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     3</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Implementasi
                                                         Bertahap</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Eksekusi program
+                                                    <p class="text-xs text-white leading-relaxed">Eksekusi program
                                                         pengembangan secara bertahap dan terstruktur.</p>
                                                 </div>
                                             </div>
                                             <div class="relative flex gap-5 items-start pl-8">
                                                 <div
-                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-accent">
+                                                    class="absolute left-0 w-6 h-6 rounded-full bg-bg border border-accent flex items-center justify-center text-[10px] font-bold text-white">
                                                     4</div>
                                                 <div>
                                                     <span class="text-sm font-bold text-white block mb-1">Monitoring &
                                                         Evaluasi</span>
-                                                    <p class="text-xs text-white/40 leading-relaxed">Pengawasan dan
+                                                    <p class="text-xs text-white leading-relaxed">Pengawasan dan
                                                         evaluasi berkelanjutan untuk memastikan efektivitas program.</p>
                                                 </div>
                                             </div>
@@ -2310,23 +2310,23 @@
 
     </main>
 
-    <footer class="py-24 md:py-40 px-5 md:px-12 mt-20 border-t border-white/5 bg-[#020617]">
+    <footer class="py-24 md:py-40 px-5 md:px-12 mt-20 border-t border-white/5 bg-blue-900/10">
         <div class="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
             <div>
-                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter serif-italic mb-6">INF25.</h2>
-                <p class="text-white/30 max-w-sm text-sm md:text-base mb-8">Latihan Kepemimpinan Mahasiswa Informatika.
+                <h2 class="text-5xl md:text-7xl font-bold tracking-tighter serif-italic mb-6 text-white">INF25.</h2>
+                <p class="text-white max-w-sm text-sm md:text-base mb-8">Latihan Kepemimpinan Mahasiswa Informatika.
                     Bergerak bersama, tumbuh lebih jauh.</p>
                 <div class="flex gap-6">
                     <a href="#"
-                        class="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase hover:text-accent transition-colors">Instagram</a>
+                        class="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase text-white hover:text-white transition-colors">Instagram</a>
                     <a href="#"
-                        class="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase hover:text-accent transition-colors">LinkedIn</a>
+                        class="text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase text-white hover:text-white transition-colors">LinkedIn</a>
                 </div>
             </div>
             <div class="flex flex-col md:items-end">
-                <span class="text-[9px] font-bold opacity-20 tracking-[0.6em] uppercase mb-3">&copy; 2026 Kelompok
+                <span class="text-[9px] font-bold opacity-100 tracking-[0.6em] uppercase mb-3 text-white">&copy; 2026 Kelompok
                     10</span>
-                <span class="text-[8px] font-bold opacity-10 tracking-[0.2em] uppercase">Built with Dedication &
+                <span class="text-[8px] font-bold opacity-40 tracking-[0.2em] uppercase text-white">Built with Dedication &
                     Integrity</span>
             </div>
         </div>
